@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Library to serialize and deserialize object graphs in the JSOG format"
   s.authors     = ["Jeff Schnitzer"]
   s.email       = 'jeff@infohazard.org'
-  s.files       = ["lib/jsog.rb"]
+  s.files       = ["lib/jsog.rb", 'lib/object_serializer.rb']
   s.homepage    =
     'https://github.com/stickfigure/jsog-ruby'
 end
