@@ -21,7 +21,7 @@ class JSOG
           encode(item)
         end
       elsif obj.is_a? Hash
-        Hash[value.map do |k,v|
+        Hash[obj.map do |k,v|
           [k, encode(v)]
         end]
       else
